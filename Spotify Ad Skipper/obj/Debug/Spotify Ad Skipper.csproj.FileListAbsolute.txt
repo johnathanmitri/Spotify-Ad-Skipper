@@ -1,0 +1,11 @@
+D:\Dev\VisualStudio\Spotify Ad Skipper\Spotify Ad Skipper\bin\Debug\Spotify Ad Skipper.exe
+D:\Dev\VisualStudio\Spotify Ad Skipper\Spotify Ad Skipper\bin\Debug\Spotify Ad Skipper.pdb
+D:\Dev\VisualStudio\Spotify Ad Skipper\Spotify Ad Skipper\obj\Debug\Spotify_Ad_Skipper.Properties.Resources.resources
+D:\Dev\VisualStudio\Spotify Ad Skipper\Spotify Ad Skipper\obj\Debug\Spotify Ad Skipper.csproj.GenerateResource.cache
+D:\Dev\VisualStudio\Spotify Ad Skipper\Spotify Ad Skipper\obj\Debug\Spotify Ad Skipper.csproj.CoreCompileInputs.cache
+D:\Dev\VisualStudio\Spotify Ad Skipper\Spotify Ad Skipper\obj\Debug\Spotify Ad Skipper.exe
+D:\Dev\VisualStudio\Spotify Ad Skipper\Spotify Ad Skipper\obj\Debug\Spotify Ad Skipper.pdb
+D:\Dev\VisualStudio\Spotify Ad Skipper\Spotify Ad Skipper\bin\Debug\Spotify Ad Skipper.exe.config
+D:\Dev\VisualStudio\Spotify Ad Skipper\Spotify Ad Skipper\obj\Debug\Spotify_Ad_Skipper.Form1.resources
+D:\Dev\VisualStudio\Spotify Ad Skipper\Spotify Ad Skipper\obj\Debug\Spotify Ad Skipper.csproj.AssemblyReference.cache
+D:\Dev\VisualStudio\Spotify Ad Skipper\Spotify Ad Skipper\obj\Debug\Spotify Ad Skipper.csproj.SuggestedBindingRedirects.cache

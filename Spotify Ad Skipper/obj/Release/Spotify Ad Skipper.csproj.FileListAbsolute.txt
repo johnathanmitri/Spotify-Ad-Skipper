@@ -1,0 +1,22 @@
+D:\Dev\VisualStudio\Spotify Ad Skipper\Spotify Ad Skipper\bin\Release\Spotify Ad Skipper.exe.config
+D:\Dev\VisualStudio\Spotify Ad Skipper\Spotify Ad Skipper\bin\Release\Spotify Ad Skipper.exe
+D:\Dev\VisualStudio\Spotify Ad Skipper\Spotify Ad Skipper\bin\Release\Spotify Ad Skipper.pdb
+D:\Dev\VisualStudio\Spotify Ad Skipper\Spotify Ad Skipper\obj\Release\Spotify Ad Skipper.csproj.AssemblyReference.cache
+D:\Dev\VisualStudio\Spotify Ad Skipper\Spotify Ad Skipper\obj\Release\Spotify Ad Skipper.csproj.SuggestedBindingRedirects.cache
+D:\Dev\VisualStudio\Spotify Ad Skipper\Spotify Ad Skipper\obj\Release\Spotify_Ad_Skipper.Form1.resources
+D:\Dev\VisualStudio\Spotify Ad Skipper\Spotify Ad Skipper\obj\Release\Spotify_Ad_Skipper.Properties.Resources.resources
+D:\Dev\VisualStudio\Spotify Ad Skipper\Spotify Ad Skipper\obj\Release\Spotify Ad Skipper.csproj.GenerateResource.cache
+D:\Dev\VisualStudio\Spotify Ad Skipper\Spotify Ad Skipper\obj\Release\Spotify Ad Skipper.csproj.CoreCompileInputs.cache
+D:\Dev\VisualStudio\Spotify Ad Skipper\Spotify Ad Skipper\obj\Release\Spotify Ad Skipper.exe
+D:\Dev\VisualStudio\Spotify Ad Skipper\Spotify Ad Skipper\obj\Release\Spotify Ad Skipper.pdb
+D:\Dev\Github\Spotify Ad Skipper\Spotify Ad Skipper\bin\Release\Spotify Ad Skipper.exe.config
+D:\Dev\Github\Spotify Ad Skipper\Spotify Ad Skipper\bin\Release\Spotify Ad Skipper.exe
+D:\Dev\Github\Spotify Ad Skipper\Spotify Ad Skipper\bin\Release\Spotify Ad Skipper.pdb
+D:\Dev\Github\Spotify Ad Skipper\Spotify Ad Skipper\obj\Release\Spotify Ad Skipper.csproj.AssemblyReference.cache
+D:\Dev\Github\Spotify Ad Skipper\Spotify Ad Skipper\obj\Release\Spotify Ad Skipper.csproj.SuggestedBindingRedirects.cache
+D:\Dev\Github\Spotify Ad Skipper\Spotify Ad Skipper\obj\Release\Spotify_Ad_Skipper.Form1.resources
+D:\Dev\Github\Spotify Ad Skipper\Spotify Ad Skipper\obj\Release\Spotify_Ad_Skipper.Properties.Resources.resources
+D:\Dev\Github\Spotify Ad Skipper\Spotify Ad Skipper\obj\Release\Spotify Ad Skipper.csproj.GenerateResource.cache
+D:\Dev\Github\Spotify Ad Skipper\Spotify Ad Skipper\obj\Release\Spotify Ad Skipper.csproj.CoreCompileInputs.cache
+D:\Dev\Github\Spotify Ad Skipper\Spotify Ad Skipper\obj\Release\Spotify Ad Skipper.exe
+D:\Dev\Github\Spotify Ad Skipper\Spotify Ad Skipper\obj\Release\Spotify Ad Skipper.pdb
