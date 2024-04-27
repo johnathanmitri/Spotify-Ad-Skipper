@@ -20,3 +20,13 @@ D:\Dev\Github\Spotify Ad Skipper\Spotify Ad Skipper\obj\Release\Spotify Ad Skipp
 D:\Dev\Github\Spotify Ad Skipper\Spotify Ad Skipper\obj\Release\Spotify Ad Skipper.csproj.CoreCompileInputs.cache
 D:\Dev\Github\Spotify Ad Skipper\Spotify Ad Skipper\obj\Release\Spotify Ad Skipper.exe
 D:\Dev\Github\Spotify Ad Skipper\Spotify Ad Skipper\obj\Release\Spotify Ad Skipper.pdb
+C:\Dev\GitHub\Spotify-Ad-Skipper\Spotify Ad Skipper\bin\Release\Spotify Ad Skipper.exe.config
+C:\Dev\GitHub\Spotify-Ad-Skipper\Spotify Ad Skipper\bin\Release\Spotify Ad Skipper.exe
+C:\Dev\GitHub\Spotify-Ad-Skipper\Spotify Ad Skipper\bin\Release\Spotify Ad Skipper.pdb
+C:\Dev\GitHub\Spotify-Ad-Skipper\Spotify Ad Skipper\obj\Release\Spotify Ad Skipper.csproj.AssemblyReference.cache
+C:\Dev\GitHub\Spotify-Ad-Skipper\Spotify Ad Skipper\obj\Release\Spotify_Ad_Skipper.Form1.resources
+C:\Dev\GitHub\Spotify-Ad-Skipper\Spotify Ad Skipper\obj\Release\Spotify_Ad_Skipper.Properties.Resources.resources
+C:\Dev\GitHub\Spotify-Ad-Skipper\Spotify Ad Skipper\obj\Release\Spotify Ad Skipper.csproj.GenerateResource.cache
+C:\Dev\GitHub\Spotify-Ad-Skipper\Spotify Ad Skipper\obj\Release\Spotify Ad Skipper.csproj.CoreCompileInputs.cache
+C:\Dev\GitHub\Spotify-Ad-Skipper\Spotify Ad Skipper\obj\Release\Spotify Ad Skipper.exe
+C:\Dev\GitHub\Spotify-Ad-Skipper\Spotify Ad Skipper\obj\Release\Spotify Ad Skipper.pdb

@@ -9,6 +9,8 @@ using System.Windows.Forms;
 using System.Runtime.InteropServices;
 using Spotify_Ad_Skipper.Properties;
 using System.Diagnostics;
+using System.IO;
+using System.Xml.Linq;
 
 namespace Spotify_Ad_Skipper
 {
@@ -36,13 +38,54 @@ namespace Spotify_Ad_Skipper
         static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);
 
         String userPath;
+        private Timer adCheckTimer;
 
         private NotifyIcon trayIcon;
+
+        [DllImport("user32.dll", CharSet = CharSet.Auto, SetLastError = true)]
+        static extern int GetWindowText(IntPtr hWnd, StringBuilder lpString, int nMaxCount);
+
+        [DllImport("user32.dll", SetLastError = true, CharSet = CharSet.Auto)]
+        static extern int GetWindowTextLength(IntPtr hWnd);
+
+        public static string GetWindowTitle(IntPtr hWnd)
+        {
+            var length = GetWindowTextLength(hWnd) + 1;
+            var title = new StringBuilder(length);
+            GetWindowText(hWnd, title, length);
+            return title.ToString();
+        }
+
+        public void InitTimer()
+        {
+            adCheckTimer = new Timer();
+            adCheckTimer.Tick += new EventHandler(checkForAd);
+            adCheckTimer.Interval = 400; // in miliseconds
+            adCheckTimer.Start();
+        }
+
+        private void checkForAd(object sender, EventArgs e)
+        {
+
+            var processes = Process.GetProcessesByName("Spotify");
+            foreach (var process in processes)
+            {
+                string windowTitle = process.MainWindowTitle; //GetWindowTitle(process.MainWindowHandle);
+                if (windowTitle == "Advertisement")
+                {
+                    File.AppendAllText("windowTitles.txt", "AUTO SKIPPED AD AT " + DateTime.Now.ToString("dddd, MMMM dd, yyyy hh:mm:ss tt") + Environment.NewLine);
+                    RestartSpotify();
+                    break;
+                }
+            }
+        }
+
         public Form1()
         {
            
             InitializeComponent();
 
+            InitTimer();
             // bind the media stop key to restart spotify
             Form1.RegisterHotKey(this.Handle, this.GetType().GetHashCode(), 0x0000, VK_MEDIA_STOP); 
 
@@ -104,6 +147,9 @@ namespace Spotify_Ad_Skipper
             foreach (var process in processes)
             {
                 // close spotify nicely. killing spotify makes it forget what song it is on
+                string windowTitle = GetWindowTitle(process.MainWindowHandle);
+                if (windowTitle != "" && windowTitle != "Advertisement")
+                    File.AppendAllText("windowTitles.txt", windowTitle + Environment.NewLine);
                 process.CloseMainWindow(); 
             }
 
@@ -113,7 +159,7 @@ namespace Spotify_Ad_Skipper
             openSpotify();
 
             // wait 1.5 seconds after opening spotify
-            System.Threading.Thread.Sleep(1500); 
+            System.Threading.Thread.Sleep(1900); 
 
             sendPlaybutton();
         }
