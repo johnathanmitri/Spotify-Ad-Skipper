@@ -71,9 +71,9 @@ namespace Spotify_Ad_Skipper
             foreach (var process in processes)
             {
                 string windowTitle = process.MainWindowTitle; //GetWindowTitle(process.MainWindowHandle);
-                if (windowTitle == "Advertisement")
+                if (windowTitle == "Advertisement" || (windowTitle!="" && windowTitle!="Spotify Free" && !windowTitle.Contains(" - ")))
                 {
-                    File.AppendAllText("windowTitles.txt", "AUTO SKIPPED AD AT " + DateTime.Now.ToString("dddd, MMMM dd, yyyy hh:mm:ss tt") + Environment.NewLine);
+                    File.AppendAllText("windowTitles.txt", "AUTO SKIPPED AD AT " + DateTime.Now.ToString("dddd, MMMM dd, yyyy hh:mm:ss tt") + $" - '{windowTitle}'\n");
                     RestartSpotify();
                     break;
                 }
